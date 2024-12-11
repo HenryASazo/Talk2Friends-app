@@ -13,7 +13,8 @@ Instructions on how to open and run our project
 4. In order to run out app, we have just been hitting the run button and everything should run.
 
 UPDATED CAPABILITIES
--There are data checkers in the update page where users are only allowed to enter the appropriate data in each field.
--Cleaned up the UI to make it easier to navigate.
--Added a separation in the friends tab to differentiate between friends and suggestions.
--Error messages to users when there is an invalid input
+
+- There are data checkers in the update page where users are only allowed to enter the appropriate data in each field.
+- Cleaned up the UI to make it easier to navigate.
+- Added a separation in the friends tab to differentiate between friends and suggestions.
+- Error messages to users when there is an invalid input
