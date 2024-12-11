@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_color"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="28dp"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/meetings_btn"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="Meetings"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:id="@+id/profile_btn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:id="@+id/friends_btn"
+            android:layout_width="130dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-20dp"
+        app:cardCornerRadius="28dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical"
+            android:padding="28dp"
+            android:id="@+id/line">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="@color/main_color"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:id="@+id/profile_unique"/>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Henry Sazo"
+                android:alpha="0.7"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/name"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age: 22"
+                android:alpha="0.7"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/age"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: Hsazo@usc.edu"
+                android:alpha="0.7"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/email"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Native Speaker"
+                android:alpha="0.7"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/speaker"/>
+
+
+
+
+            <Button
+                android:layout_marginTop="280dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_btn"
+                android:layout_marginBottom="20dp"
+                android:text="Update"
+                android:textSize="30dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
